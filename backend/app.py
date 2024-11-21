@@ -12,8 +12,8 @@ class CityName(str, Enum):
     Other = "Other"
 
 app = FastAPI(
-  title='FastAPI Tutorial and Coronavirus Tracker API Docs',
-  description='FastAPI教程 新冠病毒疫情跟踪器API接口文档，项目代码：https://github.com/liaogx/fastapi-tutorial',
+  title='FastAPI Swagger Test API Docs',
+  description='FastAPI Swagger Test API Docs',
   version='1.0.0',
   docs_url='/docs',
   redoc_url='/redocs',

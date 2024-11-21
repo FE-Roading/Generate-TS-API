@@ -1,0 +1,26 @@
+{
+  "name": "request-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "openapi": "openapi-ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "nprogress": "^0.2.0",
+    "qs": "^6.13.1",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.17",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "openapi-ts-request": "^0.12.1",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vue-tsc": "^2.1.8"
+  }
+}
